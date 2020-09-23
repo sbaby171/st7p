@@ -4,8 +4,8 @@ if you know, you know.
 
 ## Pin-configuration: 
 
-`pco.pins.length()`
-`pco.supplies.length()`
-`pco.groups.length()`
-`pco.ports.length()`
+* `pco.pins`, `pco.pins.length`
+* `pco.supplies`, `pco.supplies.length()`
+* `pco.ports`, `pco.groups.length()`
+* `pco.groups`, `pco.ports.length()`
 
