@@ -1,18 +1,9 @@
-# st7p
-if you know, you know.
+# st7p: V93k SmarTest-7-parsers
+A collection of SmarTest-7 setup file parsers.
 
-**TODO:** For binl and bursts. I believe there needs to be alot more study of how there 
-files should be translated into python object. Order matters, sequencer program and labels, etc. 
+* config: Proceses pin configuration file. 
+* levels: processes levels file. 
+* timing; processes timing files
+* vectors: processes vectors files (pmf,main,mpbu,brst)
+* testflow: processes testflow files
 
-
-## Pin-configuration: 
-
-* `pco.pins`, `pco.pins.length()`
-* `pco.supplies`, `pco.supplies.length()`
-* `pco.ports`, `pco.groups.length()`
-* `pco.groups`, `pco.ports.length()`
-
-## Patterns: 
-
-#### Binl
-* `binl.dmas`, `binl.dmas.area(<area>)`
