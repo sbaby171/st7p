@@ -1,6 +1,7 @@
 import sys, os, re, argparse
 from collections import OrderedDict
-import st7putils 
+#import st7putils 
+from st7p import st7putils
 
 RE_TF_HEADER     = re.compile("^hp93000,testflow,\d\.\d")
 RE_TF_LANG_REV   = re.compile("^language_revision")
