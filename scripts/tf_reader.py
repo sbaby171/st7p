@@ -29,10 +29,6 @@ def __handle_cmd_args():
         raise RuntimeError("Must provide testflow file '-tf'")
     if not os.path.isfile(args.tf): 
         raise RuntimeError("Testflow doesn't exist or has bad permissions.")
-    # EDF file:  
-    if args.edf: 
-        if not os.path.isfile(args.edf): 
-            raise RuntimeError("EDF doesn't exist or has bad permissions.")
     return args
 # ----------------------------------------------------------------------------:
 if __name__ == "__main__": 
